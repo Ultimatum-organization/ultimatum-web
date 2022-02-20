@@ -4,6 +4,10 @@ This is the source code of the Ultimatum Webpage. For anyone contributing it is 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+BEFORE DOING ANY OF THE FOLLOWING YOU MUST RUN:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
