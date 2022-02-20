@@ -4,6 +4,7 @@ import svg3 from '../../images/svg-3.svg'
 import svg4 from '../../images/svg-4.svg'
 import svg5 from '../../images/svg-5.svg'
 import svg6 from '../../images/svg-6.svg'
+import svg8 from '../../images/svg-8.svg'
 
 export const homeObjOne = {
     id: 'about',
@@ -63,4 +64,25 @@ export const homeObjThree = {
     isLink: true,
     isRoute: true,
     destination: '/documentation'
+}
+
+export const contributionObj = {
+    id: 'contribute',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Contributing',
+    headline: 'Make What Everyone Wants',
+    description: "Alter the very core of the project, using the project. Isn't that meta?",
+    buttonLabel: 'Request A Contribution',
+    imgStart: false,
+    img: svg8,
+    alt: 'crypto',
+    dark: true,
+    primary: true,
+    darkText: false,
+    destination: 'features',
+    isLink: true,
+    isRoute: true,
+    destination: '/about'
 }

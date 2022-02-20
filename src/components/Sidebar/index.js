@@ -21,11 +21,11 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarMenu>
                     <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
                     <SidebarLink to="features" onClick={toggle}>Features</SidebarLink>
-                    <SidebarLinkRoute to="/documentation" onClick={toggle}>Documentation</SidebarLinkRoute>
-                    <SidebarLinkRoute to="/history" onClick={toggle}>Blockchain History</SidebarLinkRoute>
+                    <SidebarLinkRoute to="/contribute" onClick={toggle}>Contribute</SidebarLinkRoute>
+                    <SidebarLinkRoute to="/history" onClick={toggle}>Contribution History</SidebarLinkRoute>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/wallet" onClick={toggle}>Wallet</SidebarRoute>
+                    <SidebarRoute to="/wallet" onClick={toggle}>Your Account</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

@@ -1,12 +1,6 @@
-# Ultimatum Website Source
-
-This is the source code of the Ultimatum Webpage. For anyone contributing it is recommended that you understand React and JSX.
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-BEFORE DOING ANY OF THE FOLLOWING YOU MUST RUN:
-
-### `npm install`
 
 ## Available Scripts
 

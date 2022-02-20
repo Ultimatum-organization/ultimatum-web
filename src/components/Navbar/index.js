@@ -54,10 +54,10 @@ const Navbar = ({toggle}) => {
                                 <NavLinks to="features" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Features</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinksRoute to="/documentation">Documentation</NavLinksRoute>
+                                <NavLinksRoute to="/contribute">Contribute</NavLinksRoute>
                             </NavItem>
                             <NavItem>
-                                <NavLinksRoute to="/history">Voting History</NavLinksRoute>
+                                <NavLinksRoute to="/history">Contribution History</NavLinksRoute>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
